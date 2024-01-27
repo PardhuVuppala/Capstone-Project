@@ -1,0 +1,20 @@
+CREATE PACKAGE.JSON
+npm init -y
+
+INSTALL EXPRESS
+npm install express --save
+
+INISTALL CORS
+npm install cors --save
+
+INSTALL MONGOOSE
+npm install mongoose --save
+
+INSTALL
+npm install bcrypt --save
+
+INSTALL
+npm install nodemailer --save
+
+INSTALL
+npm install randomatic --save

@@ -1,0 +1,22 @@
+SEND MAIL THROUGH GMAIL
+---------------------------
+1. INSTALL NODEMAILER IN BACKEND
+npm install nodemailer
+
+2. CREATE A NEW GMAIL ACCOUNT
+
+3. LOGIN
+EMAIL ID - .......@gmail.com
+PASSWORD - ..........
+
+4. AFTER LOGIN CLICK ON square dots upper right corner.
+
+5. Go To Accounts
+
+6. Go To Security [left side option]
+
+7. Enable 2 STEP VERIFICATION [ADD MOBILE No]
+
+8. CREATE APP PASSWORD
+give any custom name - select windows computer
+For Project1 App Password - .................

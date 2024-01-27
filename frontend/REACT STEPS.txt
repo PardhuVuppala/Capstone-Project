@@ -1,0 +1,32 @@
+REACT
+1. CREATE COMPONENTS ACCORDING YOUR PROJECT
+2. ADD ROUTING
+3. ADD LOGIC INSIDE EACH COMPONENTS.
+---------------------------------------------
+1. ACCORDING TO UI COMPONENTS YOU NEED TO CREATE VARIABLES.
+
+2. 2 WAY BINDING[value, onChange] VARIABLE WITH COMPONENT
+<input type="text" 
+value={ename}
+onChange={(e) => setEmpName(e.target.value)} placeholder="Enter Name" />
+
+3. CREATE HANDLESUBMIT
+3.1. PREVENT DEFAULT ACTION OF SUBMIT BUTTON.
+evt.preventDefault();
+
+3.2. CREATE JSON AND STORE ALL USER INPUT
+
+3.3. COMMUNICATE WITH BACKEND USING AXIOS
+and after receiving response process it.
+axios.post('http://localhost:4500/emp/register', empinfo)
+  .then(res => {
+        console.log(res.data)
+        setMessage('REGISTRATION SUCCESSFUL')
+            });
+
+
+3.4. CREAR FORM COMPONENTS
+setEmpName('')
+setEmpEmail('')
+setEmpmobile('')
+

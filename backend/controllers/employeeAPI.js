@@ -11,7 +11,7 @@ const randomize = require('randomatic');
 //IMPORT EMPLOYEE MODEL AND BIND IT
 const EmpModel = require('../models/employee_schema');
 
-// URL :- localhost:4500/emp/register  (USING POSTMAN POST)
+// URL :- c  (USING POSTMAN POST)
 /*
 {
   "empname": "Chandan",
